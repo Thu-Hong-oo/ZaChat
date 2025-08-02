@@ -2,9 +2,9 @@
 
 A cross-platform messaging application with monolithic architecture, featuring real-time chat, video calling, and group management capabilities.
 
-## ?? Key Features
+## 🚀 Key Features
 
-### ?? Messaging System
+### 💬 Messaging System
 - **1-1 Chat:** Text messages, emojis, multi-format file sharing
 - **Group Chat:** Create groups, manage members, admin permissions
 - **Real-time communication** with Socket.io
@@ -15,25 +15,25 @@ A cross-platform messaging application with monolithic architecture, featuring r
   - Delete messages with metadata tracking
   - Read receipts and notifications
 
-### ?? Video Call System
+### 📞 Video Call System
 - **1-1 Video Call** integrated with Twilio Video API
 - **Group Video Call** supporting up to 50 participants
 - **Call History** and detailed statistics
 - **Real-time call notifications** and call quality monitoring
 
-### ?? Social Features
+### 👥 Social Features
 - **Friend System:** Add friends, send/accept friend requests
 - **User Profiles:** Manage avatars, personal information
 - **Online/Offline Status** real-time updates
 - **Group Management:** Create groups, add/remove members, role management
 
-### ?? Authentication & Security
+### 🔐 Authentication & Security
 - Registration/login system with OTP verification
 - JWT token authentication with refresh mechanism
 - API security with middleware authentication
 - Password encryption with bcryptjs
 
-## ??? Technology Stack
+## 🛠️ Technology Stack
 
 ### Frontend
 - **Mobile App:** React Native with Expo SDK 52
@@ -58,32 +58,32 @@ A cross-platform messaging application with monolithic architecture, featuring r
 - **Mobile Build:** Expo
 - **Cloud Services:** AWS (DynamoDB, S3, SNS)
 
-## ?? Project Structure
+## 📁 Project Structure
 
 ```
 Zalo-Official/
-+-- App/                    # React Native Mobile App
-�   +-- screens/           # 20+ screens
-�   +-- components/        # Reusable components
-�   +-- modules/          # API controllers
-�   +-- services/         # Socket, storage services
-�   +-- config/           # API configuration
-+-- zalo-backend/         # Node.js Backend API
-�   +-- src/
-�   �   +-- modules/      # Feature modules
-�   �   +-- middleware/   # Auth, upload middleware
-�   �   +-- config/       # AWS, Redis config
-�   �   +-- services/     # Twilio service
-�   +-- scripts/          # Database setup
-+-- zalo-web/             # React Web App
-    +-- src/
-    �   +-- components/   # 20+ components
-    �   +-- redux/        # State management
-    �   +-- services/     # API services
-    +-- public/           # Static assets
+├── App/                    # React Native Mobile App
+│   ├── screens/           # 20+ screens
+│   ├── components/        # Reusable components
+│   ├── modules/          # API controllers
+│   ├── services/         # Socket, storage services
+│   └── config/           # API configuration
+├── zalo-backend/         # Node.js Backend API
+│   ├── src/
+│   │   ├── modules/      # Feature modules
+│   │   ├── middleware/   # Auth, upload middleware
+│   │   ├── config/       # AWS, Redis config
+│   │   └── services/     # Twilio service
+│   └── scripts/          # Database setup
+└── zalo-web/             # React Web App
+    ├── src/
+    │   ├── components/   # 20+ components
+    │   ├── redux/        # State management
+    │   └── services/     # API services
+    └── public/           # Static assets
 ```
 
-## ?? Installation & Setup
+## 🚀 Installation & Setup
 
 ### Prerequisites
 - Node.js (v16+)
@@ -116,7 +116,7 @@ npm install
 npm start
 ```
 
-## ?? Environment Configuration
+## 🔧 Environment Configuration
 
 ### Backend (.env)
 ```env
@@ -139,7 +139,7 @@ API_URL=http://localhost:3000
 SOCKET_URL=http://localhost:3000
 ```
 
-## ?? API Endpoints
+## 📱 API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - User registration
@@ -176,7 +176,7 @@ SOCKET_URL=http://localhost:3000
 - `POST /api/video-call/room` - Create video call room
 - `GET /api/video-call/history` - Get call history
 
-## ?? Real-time Events
+## 🔄 Real-time Events
 
 ### Socket.io Events
 - `message:new` - New message
@@ -190,7 +190,7 @@ SOCKET_URL=http://localhost:3000
 - `call:answer` - Call answer
 - `call:end` - Call end
 
-## ?? Database Schema
+## 📊 Database Schema
 
 ### DynamoDB Tables
 - **Users Table:** User information
@@ -200,7 +200,7 @@ SOCKET_URL=http://localhost:3000
 - **Friends Table:** Friend relationships
 - **Video Calls Table:** Call history
 
-## ?? Deployment
+## 🚀 Deployment
 
 ### Backend (Docker)
 ```bash
@@ -223,7 +223,7 @@ expo build:android
 expo build:ios
 ```
 
-## ?? Contributing
+## 🤝 Contributing
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -231,15 +231,15 @@ expo build:ios
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## ?? License
+## 📄 License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details.
 
-## ????? Author
+## 👨‍💻 Author
 
 **Your Name** - [GitHub](https://github.com/yourusername)
 
-## ?? Acknowledgments
+## 🙏 Acknowledgments
 
 - [Expo](https://expo.dev/) - React Native development platform
 - [Twilio](https://www.twilio.com/) - Video calling API
