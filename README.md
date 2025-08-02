@@ -235,9 +235,6 @@ expo build:ios
 
 This project is licensed under the MIT License - see the `LICENSE` file for details.
 
-## 👨‍💻 Author
-
-**Your Name** - [GitHub](https://github.com/yourusername)
 
 ## 🙏 Acknowledgments
 
